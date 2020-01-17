@@ -170,7 +170,7 @@ nav ul
 
 #sponsor
 {
-    padding: 12.5% 7.5% 5% 7.5%;
+    padding: 4% 7.5% 5% 7.5%;
 }
 
  .col-12 .dabba
@@ -205,8 +205,14 @@ nav ul
     display: block;
     max-width: 400px;
     height: 200px;
-    margin: 0 auto;
+    margin: auto auto;
     text-align: center;
+}
+
+.dabba {
+    display: flex!important;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media screen and (max-width: 440px)
@@ -231,3 +237,58 @@ nav ul
 {
     padding: 12.5% 0;
 }
+
+
+.textRightLeft {
+    height: 60px;
+    width: 240px;
+    font-size: 2em;
+    text-align: center;
+    overflow: hidden;
+    background: #474E51;
+    position: relative;
+    line-height: 55px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.textRightLeft span {
+    display: block;
+}
+
+.textRightLeft:hover span {
+    animation: animButtonSpan 0.4s;
+}
+
+@keyframes animButtonSpan {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    33% {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+
+    66% {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
