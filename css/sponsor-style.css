@@ -242,10 +242,10 @@ nav ul
 .textRightLeft {
     height: 60px;
     width: 240px;
-    font-size: 2em;
+    font-size: 17px;
     text-align: center;
     overflow: hidden;
-    background: #474E51;
+    background: black;
     position: relative;
     line-height: 55px;
     color: #fff;
