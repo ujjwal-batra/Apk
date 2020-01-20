@@ -88,7 +88,7 @@
                             <div class="hero-copy__inner">
                                 <div class="t-copy-xs">
                                     <div class="copy-line">
-                                        <div class="t-lined-pre"><span class="t-lined-pre__line"></span> <span>Launching in </span></div>
+                                        <div class="t-lined-pre"><span class="t-lined-pre__line"></span> <span style="font-size: 15px;">Launching in </span></div>
                                     </div>
                                 </div>
                                 <script>
@@ -111,8 +111,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("this").innerHTML = days + "<small>D</small> " + hours + "<small>H</small> "
-  + minutes + "<small>M</small> " + seconds + "<small>S</small> ";
+  document.getElementById("this").innerHTML = "<span class='time1'>" + days + "</span>" + "<small>D</small> " +"<span class='time1'>"+ hours + "</span>" +"<small>H</small> "
+ + "<span class='time1'>" + minutes + "</span>" +"<small>M</small> " + "<span class='time1'>" + seconds + "</span>" +"<small>S</small> ";
     
   // If the count down is over, write some text 
   if (distance < 0) {
@@ -133,7 +133,7 @@ var x = setInterval(function() {
                             </div>
                             <div class="buttons-wrapper">
                                 <a href="#" id="view-projects" class="btn js-link" data-fn="goToSection" data-prm='["projects"]'>
-                                    <div class="copy-line"><span class="btn__text">Explore Aparoksha</span></div><span class="btn__line"></span> <span class="btn__line"></span> <span class="btn__line"></span> <span class="btn__line"></span></a>
+                                    <div class="copy-line size"><span class="btn__text">Explore Aparoksha</span></div><span class="btn__line"></span> <span class="btn__line"></span> <span class="btn__line"></span> <span class="btn__line"></span></a>
                             </div>
                         </div>
                     </div>
@@ -745,9 +745,9 @@ var x = setInterval(function() {
         <div class="site-footer__links">
             <nav class="social-links"><span>Social</span> <span class="line"></span>
                 <ul>
-                    <li><a href="https://twitter.com/aparoksha_org" target="_blank"><span class="icon-twitter"></span></a></li>
-                    <li><a href="https://www.facebook.com/aparoksha/" target="_blank"><span class="icon-facebook"></span></a></li>
-                    <li><a href="https://www.instagram.com/aparokshaiiita/?hl=en" target="_blank"><span class="icon-instagram"></span></a></li>
+                    <li><a href="https://twitter.com/aparoksha_org" target="_blank"><span class="icon-twitter" style="font-size: 18px;"></span></a></li>
+                    <li><a href="https://www.facebook.com/aparoksha/" target="_blank"><span class="icon-facebook" style="font-size: 18px;"></span></a></li>
+                    <li><a href="https://www.instagram.com/aparokshaiiita/?hl=en" target="_blank"><span class="icon-instagram" style="font-size: 18px;"></span></a></li>
                 </ul>
             </nav>
         </div>

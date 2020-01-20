@@ -71,3 +71,15 @@
 .site-logo svg{
     width: 120%;
 }
+.site-footer__links{
+    font-size: 18px;
+}
+.size{
+    font-size: 14px;
+}
+small{
+    font-size: 50px;
+}
+.time1{
+    font-size: 65px;
+}
